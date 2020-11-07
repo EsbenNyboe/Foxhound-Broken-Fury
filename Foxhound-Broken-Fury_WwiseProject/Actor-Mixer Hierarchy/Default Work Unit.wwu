@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{367FD6A4-D889-4275-852D-B49FBC976A96}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{367FD6A4-D889-4275-852D-B49FBC976A96}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{367FD6A4-D889-4275-852D-B49FBC976A96}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="FirstObjectiveMet" ID="{86575D8F-0EC3-4CD9-912C-318AA162B5E2}" ShortID="633899760">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{55E92102-9E36-494A-B8BE-5B77646FE7AE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0D2D6D52-BC98-4A4B-8E8F-35C26C06EB3D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FirstObjectiveMet" ID="{BE574566-2184-460E-A825-3A0923A7E4CE}">
+							<Language>SFX</Language>
+							<AudioFile>FirstObjectiveMet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="115873462"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FirstObjectiveMet" ID="{BE574566-2184-460E-A825-3A0923A7E4CE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

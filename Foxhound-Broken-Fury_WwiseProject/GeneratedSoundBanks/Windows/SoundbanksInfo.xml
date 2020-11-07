@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\GameDev Projects\Foxhound-Broken-Fury\Foxhound-Broken-Fury_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\GameDev Projects\Foxhound-Broken-Fury\Foxhound-Broken-Fury_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GameDev Projects\Foxhound-Broken-Fury\Foxhound-Broken-Fury_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\GameDev Projects\Foxhound-Broken-Fury\Foxhound-Broken-Fury_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX" Hash="630458298">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank</ObjectPath>
+			<ShortName>Soundbank</ShortName>
+			<Path>Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2551955421" Name="Example" ObjectPath="\Events\Default Work Unit\Example" DurationType="OneShot" DurationMin="1.876825" DurationMax="1.876825">
+					<IncludedMemoryFiles>
+						<File Id="115873462" Language="SFX">
+							<ShortName>FirstObjectiveMet.wav</ShortName>
+							<Path>SFX\FirstObjectiveMet_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

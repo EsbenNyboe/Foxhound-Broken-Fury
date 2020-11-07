@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2551955421	Example			\Default Work Unit\Example	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115873462	FirstObjectiveMet	C:\GameDev Projects\Foxhound-Broken-Fury\Foxhound-Broken-Fury_WwiseProject\.cache\Mac\SFX\FirstObjectiveMet_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirstObjectiveMet		331136
+
