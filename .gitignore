@@ -1,0 +1,39 @@
+# wwise intermediate files
+**/.cache/
+*.akd
+
+# Unity generated
+Temp/**
+Obj/**
+UnityGenerated/**
+Library/**
+build_win/**
+build_mac/**
+build_html5/**
+
+# Ignore: name DOT meta
+*.meta
+# Include: name DOT extension DOT meta
+!*.*.meta
+
+# Visual Studio / MonoDevelop generated
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Local/*
